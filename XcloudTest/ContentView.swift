@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Cafu Text Xcloud")
+            .bold()
             .padding()
+        
     }
 }
 

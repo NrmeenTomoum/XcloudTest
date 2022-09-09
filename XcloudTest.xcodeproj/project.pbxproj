@@ -3,140 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211C0C0728BF50E80047D87E /* XcloudTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C0C0628BF50E80047D87E /* XcloudTestApp.swift */; };
-		211C0C0928BF50E80047D87E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C0C0828BF50E80047D87E /* ContentView.swift */; };
-		211C0C0B28BF50E90047D87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211C0C0A28BF50E90047D87E /* Assets.xcassets */; };
-		211C0C0E28BF50E90047D87E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211C0C0D28BF50E90047D87E /* Preview Assets.xcassets */; };
-		211C0C1828BF50E90047D87E /* XcloudTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C0C1728BF50E90047D87E /* XcloudTestTests.swift */; };
-		211C0C2228BF50E90047D87E /* XcloudTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C0C2128BF50E90047D87E /* XcloudTestUITests.swift */; };
-		211C0C2428BF50E90047D87E /* XcloudTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C0C2328BF50E90047D87E /* XcloudTestUITestsLaunchTests.swift */; };
+		0A6AC2FE482FA72D0B474D23 /* XcloudTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C020F3243534585A448225D /* XcloudTestApp.swift */; };
+		15A646F1E8F2FB6FF2263229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131BEC7607A9CF75CBA78A2A /* Preview Assets.xcassets */; };
+		A911F3A27DC972CB054DDB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E8A46A6549024C9FD036E1 /* Assets.xcassets */; };
+		D26BA09282BD481034EAFACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64993C340314ECC9CF94EFC /* ContentView.swift */; };
+		E0195E1A5063003FCC14444B /* XcloudTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B461D13CC455A3B7DE9B16 /* XcloudTestTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		211C0C1428BF50E90047D87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 211C0BFB28BF50E70047D87E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 211C0C0228BF50E80047D87E;
-			remoteInfo = XcloudTest;
-		};
-		211C0C1E28BF50E90047D87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 211C0BFB28BF50E70047D87E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 211C0C0228BF50E80047D87E;
-			remoteInfo = XcloudTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		211C0C0328BF50E80047D87E /* XcloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		211C0C0628BF50E80047D87E /* XcloudTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcloudTestApp.swift; sourceTree = "<group>"; };
-		211C0C0828BF50E80047D87E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		211C0C0A28BF50E90047D87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		211C0C0D28BF50E90047D87E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		211C0C1328BF50E90047D87E /* XcloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		211C0C1728BF50E90047D87E /* XcloudTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcloudTestTests.swift; sourceTree = "<group>"; };
-		211C0C1D28BF50E90047D87E /* XcloudTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcloudTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		211C0C2128BF50E90047D87E /* XcloudTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcloudTestUITests.swift; sourceTree = "<group>"; };
-		211C0C2328BF50E90047D87E /* XcloudTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcloudTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1111BEF0A3D4FC4450BEF4F9 /* XcloudTest.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = XcloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131BEC7607A9CF75CBA78A2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45B461D13CC455A3B7DE9B16 /* XcloudTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcloudTestTests.swift; sourceTree = "<group>"; };
+		5C020F3243534585A448225D /* XcloudTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcloudTestApp.swift; sourceTree = "<group>"; };
+		C4E8A46A6549024C9FD036E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF3F8B065A7D94F9A06A9B4 /* XcloudTestTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = XcloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64993C340314ECC9CF94EFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		211C0C0028BF50E80047D87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211C0C1028BF50E90047D87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211C0C1A28BF50E90047D87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		211C0BFA28BF50E70047D87E = {
+		1DA9044CAA7F9E6F9448C90A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				211C0C0528BF50E80047D87E /* XcloudTest */,
-				211C0C1628BF50E90047D87E /* XcloudTestTests */,
-				211C0C2028BF50E90047D87E /* XcloudTestUITests */,
-				211C0C0428BF50E80047D87E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		211C0C0428BF50E80047D87E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				211C0C0328BF50E80047D87E /* XcloudTest.app */,
-				211C0C1328BF50E90047D87E /* XcloudTestTests.xctest */,
-				211C0C1D28BF50E90047D87E /* XcloudTestUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		211C0C0528BF50E80047D87E /* XcloudTest */ = {
-			isa = PBXGroup;
-			children = (
-				211C0C0628BF50E80047D87E /* XcloudTestApp.swift */,
-				211C0C0828BF50E80047D87E /* ContentView.swift */,
-				211C0C0A28BF50E90047D87E /* Assets.xcassets */,
-				211C0C0C28BF50E90047D87E /* Preview Content */,
-			);
-			path = XcloudTest;
-			sourceTree = "<group>";
-		};
-		211C0C0C28BF50E90047D87E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				211C0C0D28BF50E90047D87E /* Preview Assets.xcassets */,
+				131BEC7607A9CF75CBA78A2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		211C0C1628BF50E90047D87E /* XcloudTestTests */ = {
+		36C7E54CBDCBFF4675A357E5 = {
 			isa = PBXGroup;
 			children = (
-				211C0C1728BF50E90047D87E /* XcloudTestTests.swift */,
+				C98726B9FD0C13D660406ADC /* XcloudTest */,
+				C290167F4DF93340A1374018 /* XcloudTestTests */,
+				4ADD06AF1068292A59472D72 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		4ADD06AF1068292A59472D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1111BEF0A3D4FC4450BEF4F9 /* XcloudTest.app */,
+				DEF3F8B065A7D94F9A06A9B4 /* XcloudTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C290167F4DF93340A1374018 /* XcloudTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				45B461D13CC455A3B7DE9B16 /* XcloudTestTests.swift */,
 			);
 			path = XcloudTestTests;
 			sourceTree = "<group>";
 		};
-		211C0C2028BF50E90047D87E /* XcloudTestUITests */ = {
+		C98726B9FD0C13D660406ADC /* XcloudTest */ = {
 			isa = PBXGroup;
 			children = (
-				211C0C2128BF50E90047D87E /* XcloudTestUITests.swift */,
-				211C0C2328BF50E90047D87E /* XcloudTestUITestsLaunchTests.swift */,
+				C4E8A46A6549024C9FD036E1 /* Assets.xcassets */,
+				F64993C340314ECC9CF94EFC /* ContentView.swift */,
+				5C020F3243534585A448225D /* XcloudTestApp.swift */,
+				1DA9044CAA7F9E6F9448C90A /* Preview Content */,
 			);
-			path = XcloudTestUITests;
+			path = XcloudTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		211C0C0228BF50E80047D87E /* XcloudTest */ = {
+		6AF0D4759EA7C3681013487F /* XcloudTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 211C0C2728BF50E90047D87E /* Build configuration list for PBXNativeTarget "XcloudTest" */;
+			buildConfigurationList = 1C15C3EDB4E2B4F462B996E2 /* Build configuration list for PBXNativeTarget "XcloudTestTests" */;
 			buildPhases = (
-				211C0BFF28BF50E80047D87E /* Sources */,
-				211C0C0028BF50E80047D87E /* Frameworks */,
-				211C0C0128BF50E80047D87E /* Resources */,
+				CC6C51A7E1F6CFC54D6F81E2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcloudTestTests;
+			productName = XcloudTestTests;
+			productReference = DEF3F8B065A7D94F9A06A9B4 /* XcloudTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5BB9A6A6C11DAF856DA5707 /* XcloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF55BBFF1EE2DA00C59F4872 /* Build configuration list for PBXNativeTarget "XcloudTest" */;
+			buildPhases = (
+				281B2F30117D60B852210B2C /* Sources */,
+				D7DCDA4AD7911FABD2D8CA9D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,164 +103,95 @@
 			);
 			name = XcloudTest;
 			productName = XcloudTest;
-			productReference = 211C0C0328BF50E80047D87E /* XcloudTest.app */;
+			productReference = 1111BEF0A3D4FC4450BEF4F9 /* XcloudTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		211C0C1228BF50E90047D87E /* XcloudTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 211C0C2A28BF50E90047D87E /* Build configuration list for PBXNativeTarget "XcloudTestTests" */;
-			buildPhases = (
-				211C0C0F28BF50E90047D87E /* Sources */,
-				211C0C1028BF50E90047D87E /* Frameworks */,
-				211C0C1128BF50E90047D87E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				211C0C1528BF50E90047D87E /* PBXTargetDependency */,
-			);
-			name = XcloudTestTests;
-			productName = XcloudTestTests;
-			productReference = 211C0C1328BF50E90047D87E /* XcloudTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		211C0C1C28BF50E90047D87E /* XcloudTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 211C0C2D28BF50E90047D87E /* Build configuration list for PBXNativeTarget "XcloudTestUITests" */;
-			buildPhases = (
-				211C0C1928BF50E90047D87E /* Sources */,
-				211C0C1A28BF50E90047D87E /* Frameworks */,
-				211C0C1B28BF50E90047D87E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				211C0C1F28BF50E90047D87E /* PBXTargetDependency */,
-			);
-			name = XcloudTestUITests;
-			productName = XcloudTestUITests;
-			productReference = 211C0C1D28BF50E90047D87E /* XcloudTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		211C0BFB28BF50E70047D87E /* Project object */ = {
+		3228A66C9D088152351D0718 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					211C0C0228BF50E80047D87E = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					211C0C1228BF50E90047D87E = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 211C0C0228BF50E80047D87E;
-					};
-					211C0C1C28BF50E90047D87E = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 211C0C0228BF50E80047D87E;
+					D5BB9A6A6C11DAF856DA5707 = {
+						DevelopmentTeam = 793K46RDR4;
 					};
 				};
 			};
-			buildConfigurationList = 211C0BFE28BF50E70047D87E /* Build configuration list for PBXProject "XcloudTest" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 5F9723023E62FAF281440781 /* Build configuration list for PBXProject "XcloudTest" */;
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 211C0BFA28BF50E70047D87E;
-			productRefGroup = 211C0C0428BF50E80047D87E /* Products */;
+			mainGroup = 36C7E54CBDCBFF4675A357E5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				211C0C0228BF50E80047D87E /* XcloudTest */,
-				211C0C1228BF50E90047D87E /* XcloudTestTests */,
-				211C0C1C28BF50E90047D87E /* XcloudTestUITests */,
+				D5BB9A6A6C11DAF856DA5707 /* XcloudTest */,
+				6AF0D4759EA7C3681013487F /* XcloudTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		211C0C0128BF50E80047D87E /* Resources */ = {
+		D7DCDA4AD7911FABD2D8CA9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211C0C0E28BF50E90047D87E /* Preview Assets.xcassets in Resources */,
-				211C0C0B28BF50E90047D87E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211C0C1128BF50E90047D87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211C0C1B28BF50E90047D87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A911F3A27DC972CB054DDB43 /* Assets.xcassets in Resources */,
+				15A646F1E8F2FB6FF2263229 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		211C0BFF28BF50E80047D87E /* Sources */ = {
+		281B2F30117D60B852210B2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211C0C0928BF50E80047D87E /* ContentView.swift in Sources */,
-				211C0C0728BF50E80047D87E /* XcloudTestApp.swift in Sources */,
+				D26BA09282BD481034EAFACF /* ContentView.swift in Sources */,
+				0A6AC2FE482FA72D0B474D23 /* XcloudTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		211C0C0F28BF50E90047D87E /* Sources */ = {
+		CC6C51A7E1F6CFC54D6F81E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211C0C1828BF50E90047D87E /* XcloudTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		211C0C1928BF50E90047D87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				211C0C2228BF50E90047D87E /* XcloudTestUITests.swift in Sources */,
-				211C0C2428BF50E90047D87E /* XcloudTestUITestsLaunchTests.swift in Sources */,
+				E0195E1A5063003FCC14444B /* XcloudTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		211C0C1528BF50E90047D87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 211C0C0228BF50E80047D87E /* XcloudTest */;
-			targetProxy = 211C0C1428BF50E90047D87E /* PBXContainerItemProxy */;
-		};
-		211C0C1F28BF50E90047D87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 211C0C0228BF50E80047D87E /* XcloudTest */;
-			targetProxy = 211C0C1E28BF50E90047D87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		211C0C2528BF50E90047D87E /* Debug */ = {
+		03D57A8DB83F8DE90A0BC894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13009E4426E49929365E4B90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -336,8 +226,8 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -345,23 +235,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		211C0C2628BF50E90047D87E /* Release */ = {
+		2B0930026ABB74CF9924AF61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -399,192 +291,101 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		211C0C2828BF50E90047D87E /* Debug */ = {
+		762DB7111272E5F8632EB9A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XcloudTest/Preview Content\"";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 793K46RDR4;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = XcloudTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cafu.com.XcloudTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-Xlinker -interposable";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46CA2CCDAC9AB3E3533D989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		211C0C2928BF50E90047D87E /* Release */ = {
+		C75D8E30C87D602B81D1D6E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XcloudTest/Preview Content\"";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 793K46RDR4;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = XcloudTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cafu.com.XcloudTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		211C0C2B28BF50E90047D87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 793K46RDR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cafu.com.XcloudTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-Xlinker -interposable";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcloudTest.app/XcloudTest";
 			};
 			name = Debug;
-		};
-		211C0C2C28BF50E90047D87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 793K46RDR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cafu.com.XcloudTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcloudTest.app/XcloudTest";
-			};
-			name = Release;
-		};
-		211C0C2E28BF50E90047D87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 793K46RDR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cafu.com.XcloudTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = XcloudTest;
-			};
-			name = Debug;
-		};
-		211C0C2F28BF50E90047D87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 793K46RDR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cafu.com.XcloudTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = XcloudTest;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		211C0BFE28BF50E70047D87E /* Build configuration list for PBXProject "XcloudTest" */ = {
+		1C15C3EDB4E2B4F462B996E2 /* Build configuration list for PBXNativeTarget "XcloudTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				211C0C2528BF50E90047D87E /* Debug */,
-				211C0C2628BF50E90047D87E /* Release */,
+				B46CA2CCDAC9AB3E3533D989 /* Debug */,
+				03D57A8DB83F8DE90A0BC894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		211C0C2728BF50E90047D87E /* Build configuration list for PBXNativeTarget "XcloudTest" */ = {
+		5F9723023E62FAF281440781 /* Build configuration list for PBXProject "XcloudTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				211C0C2828BF50E90047D87E /* Debug */,
-				211C0C2928BF50E90047D87E /* Release */,
+				13009E4426E49929365E4B90 /* Debug */,
+				2B0930026ABB74CF9924AF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		211C0C2A28BF50E90047D87E /* Build configuration list for PBXNativeTarget "XcloudTestTests" */ = {
+		BF55BBFF1EE2DA00C59F4872 /* Build configuration list for PBXNativeTarget "XcloudTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				211C0C2B28BF50E90047D87E /* Debug */,
-				211C0C2C28BF50E90047D87E /* Release */,
+				C75D8E30C87D602B81D1D6E9 /* Debug */,
+				762DB7111272E5F8632EB9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		211C0C2D28BF50E90047D87E /* Build configuration list for PBXNativeTarget "XcloudTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				211C0C2E28BF50E90047D87E /* Debug */,
-				211C0C2F28BF50E90047D87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 211C0BFB28BF50E70047D87E /* Project object */;
+	rootObject = 3228A66C9D088152351D0718 /* Project object */;
 }
